@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "<package name>"
-description = "<package description>"
+name = "authlib-provider-support"
+description = "AuthLib Provider Support Package"
 version = "0.0.1"
-authors = []
+authors = [
+    "Myron Walker"
+]
 readme = "README.rst"
 license = "LICENSE.txt"
 classifiers = [
@@ -16,7 +18,7 @@ keywords = [
 packages = [{include="mojo", from="source/packages"}]
 
 [tool.poetry.dependencies]
-python = ">=3.10,<4.0"
+python = ">=3.9,<4.0"
 
 [tool.poetry.group.dev.dependencies]
 
