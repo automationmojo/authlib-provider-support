@@ -1,7 +1,7 @@
-=======================
-python-package-template
-=======================
-This is a template repository that can be used to quickly create a python package project.
+========================
+AuthLib Provider Support
+========================
+The purpose of this package is to make it simpler to implement multi-provider authentication in a python web service that uses the AuthLib package.
 
 =========================
 Features of this Template
