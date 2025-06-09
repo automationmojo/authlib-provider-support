@@ -103,7 +103,7 @@ def validate_oauth_config(provider: str, provider_config: Dict[str, Union[str, D
     
     config = PROVIDER_CONFIGS[provider]
 
-    valid_parameters = True,
+    valid_parameters = True
     warnings = []
     provider_type = config['type']
     
@@ -124,7 +124,7 @@ def validate_oauth_config(provider: str, provider_config: Dict[str, Union[str, D
         if param in provider_config:
             value = provider_config[param]
             if not value or (isinstance(value, str) and not value.strip()):
-                result['valid'] = False
+                valid_parameters = False
                 warnings.append(f"{param} is empty or contains only whitespace")
     
     # Check for scope configuration
