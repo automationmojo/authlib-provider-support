@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "authlib-provider-support"
 description = "AuthLib Provider Support Package"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     "Myron Walker"
 ]
